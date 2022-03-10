@@ -29,6 +29,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
     implementation 'org.modelmapper:modelmapper:2.3.8'
     implementation 'com.h2database:h2'
+    implementation 'org.springframework.kafka:spring-kafka'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
